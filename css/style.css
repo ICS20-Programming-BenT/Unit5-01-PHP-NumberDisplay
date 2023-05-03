@@ -1,0 +1,36 @@
+/* Created by: Ben Thomson
+* Created on: 05/03/2023
+* This CSS file defines the style for index.php
+* ICS2O-Unit5-01-PHP-NumberDisplay
+*/
+
+body {
+  background-color: rgb(221 229 182);
+  font-weight: 900;
+  color: #6c584c;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: hsl(76deg 37% 61%);
+  padding: 40px;
+  text-align: center;
+}
+
+form {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  background-color: #a98467;
+  padding: 20px;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  background-color: #a98467;
+  padding: 20px;
+}
+
+#result {
+  background-color: #a98467;
+}
