@@ -35,6 +35,12 @@
 
       <!-- Web page heading -->
       <?php echo "<h1>Number Display</h1>" ?>
+
+      <!-- Image -->
+      <center>
+        <img src="./images/a-series-of-numbers.jpg" alt="Various numbers">
+      </center>
+      <br><br>
       
       <!-- Body text -->
       <?php echo "<p>Welcome! This webpage will give you the range of numbers between the numbers you input.</p>" ?>
@@ -44,7 +50,7 @@
       <form action="./results.php" method="post" target="results"> 
         <label for="min-number">Enter your minimum number:</label>
         <input type="number" step="1" id="min-number" placeholder="Minimum..." name="min-number"><br><br>
-        <label for="max-number">Enter a maximum number:</label>
+        <label for="max-number">Enter your maximum number:</label>
         <input type="number" step="1" id="max-number" placeholder="Maximum..." name="max-number"><br><br>
         <input type="submit" id="button" value="Submit Your Numbers!" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
       </form>
